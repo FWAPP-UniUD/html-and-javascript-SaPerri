@@ -80,10 +80,30 @@
       <p>
         <h2>Fifth Paragraph</h2>
         <form action = "http://satt.diegm.uniud.it/wa/test_form.php">
-            <div>Username<input type = "text"></div>
-            <div>Password<input type = "password"></div>
-            <div><input type = "submit"></div>
+            <div>
+                <strong>Username</strong><input type = "text">
+                <strong>Password</strong><input type = "password">
+                <input type = "submit">
+            </div>
+            <div>
+                <strong>Qual e' il tuo colore preferito?</strong>
+                Verde<input type = "radio" name = "color">
+                Blu<input type = "radio" name = "color">
+                Giallo<input type = "radio" name = "color">
+            </div>
+            <div>
+                Consenso al trattamento dei dati personali<input type = "checkbox">
+            </div>
+            <div>
+                <strong>Quali animali preferisci?</strong><br>
+                <select multiple>
+                    <option>Cane</option>
+                    <option>Gatto</option>
+                    <option>Pesce rosso</option>
+                    <option>Cavallo</option>
+                    <option>Canarino</option>
+                </select>
+            </div>
         </form>
-      </p>
     </body>
 </html>
